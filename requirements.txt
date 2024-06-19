@@ -1,5 +1,7 @@
 transformers
 accelerate
+streamlit
+python-dotenv
 einops
 langchain
 xformers

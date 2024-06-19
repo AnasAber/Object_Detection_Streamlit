@@ -1,12 +1,14 @@
 import io
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from transformers import pipeline
 from PIL import Image, ImageDraw, ImageFont
 import streamlit as st
 import os
 import time
 
-load_dotenv()
+api_key = st.secrets["HUGGINGFACE_API_KEY"]
+
+# load_dotenv()
 
 def objectDetection(image_path):
     """
@@ -17,7 +19,7 @@ def objectDetection(image_path):
         - box: The bounding box coordinates of the detected object
     """
 
-    object_detection = pipeline("object-detection", model="facebook/detr-resnet-101")
+    object_detection = pipeline("object-detection", model="facebook/detr-resnet-101", api_key=api_key)
     try:
         ob = object_detection(image_path)
         return ob
