@@ -1,0 +1,46 @@
+# The Eying App 👀
+
+The Eying App is an object detection application built using Streamlit 🎪, capable of analyzing images for objects and annotating them with bounding boxes.
+
+This app uses the Hugging Face Transformers library with a custom object detection model for accurate results.
+
+## Features
+
+- **Object Detection**: Upload an image and detect objects present in the image.
+- **Annotation**: Annotate detected objects with bounding boxes and confidence scores.
+- **Download Annotated Image**: Download the annotated image with detected objects highlighted.
+- **Interactive Interface**: User-friendly interface with options to upload images, analyze them, and view results.
+
+## Installation
+
+To run the app locally, follow these steps:
+
+1. Clone the repository:
+  
+     ```bash
+     git clone https://github.com/your-username/eying-app.git
+     cd eying-app
+
+2. Get an HUGGINGFACE_HUB API KEY to run the model used in this application:
+     - Visit https://huggingface.co/
+     - Create an Account
+     - Go to settings
+     - Go to Access tokens
+     - Generate a token
+
+4. Create a .env file inside eying-app and write:
+      HUGGINGFACE_HUB_API_KEY="your-api-key"
+
+5. Create a virtual environment and activate it following these steps:
+
+     ```bash
+     python -m venv name_of_env
+     source name_of_env\Scripts\activate
+
+6. install all the requirements:
+     pip install -r requirements.txt
+
+7. Get Streamlit working:
+     streamlit run main.py
+
+8. Be my guest and Enjoyy! ✨
