@@ -17,7 +17,7 @@ def objectDetection(image_path):
         - box: The bounding box coordinates of the detected object
     """
 
-    object_detection = pipeline("object-detection", model="ciasimbaya/ObjectDetection")
+    object_detection = pipeline("object-detection", model="facebook/detr-resnet-101")
     try:
         ob = object_detection(image_path)
         return ob
