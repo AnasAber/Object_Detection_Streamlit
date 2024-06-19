@@ -6,7 +6,7 @@ import streamlit as st
 import os
 import time
 
-api_key = st.secrets["HUGGINGFACE_API_KEY"]
+api_key = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
 
 # load_dotenv()
 
