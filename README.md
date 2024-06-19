@@ -38,9 +38,13 @@ To run the app locally, follow these steps:
      source name_of_env\Scripts\activate
 
 6. install all the requirements:
-     pip install -r requirements.txt
 
-7. Get Streamlit working:
+    ```bash
+    pip install -r requirements.txt
+
+8. Get Streamlit working:
+
+    ```bash
      streamlit run main.py
 
-8. Be my guest and Enjoyy! ✨
+9. Be my guest and Enjoyy! ✨
