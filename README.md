@@ -4,6 +4,9 @@ The Eying App is an object detection application built using Streamlit 🎪, cap
 
 This app uses the Hugging Face Transformers library with a custom object detection model for accurate results.
 
+Although it's not working due to a small error that needs to be fixed, here's the link, stay tuned:
+### Eying App: https://eying-object-detection-tool.streamlit.app/
+
 ## Features
 
 - **Object Detection**: Upload an image and detect objects present in the image.
