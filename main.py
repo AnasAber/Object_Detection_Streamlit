@@ -101,7 +101,7 @@ st.markdown(
 
 # Streamlit app
 st.title("The Eying App 👀")
-st.markdown("An object detection app 🔥, try uploading an image and see for yourself 😋. The code is open source and available in [here](https://github.com/your-repository) on Github", unsafe_allow_html=True)
+st.markdown("An object detection app 🔥, try uploading an image and see for yourself 😋. The code is open source and available in [here](https://github.com/AnasAber/Object_Detection_Streamlit) on Github", unsafe_allow_html=True)
 
 # Sidebar for image upload
 st.sidebar.markdown("<h2 style='color: #E55604;'>Upload Desired Image</h2>", unsafe_allow_html=True)
