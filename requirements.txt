@@ -1,0 +1,12 @@
+transformers
+accelerate
+einops
+langchain
+xformers
+sentence_transformers
+torch 
+peft 
+langchain_community
+IPython
+matplotlib
+
